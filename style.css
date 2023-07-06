@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    overflow: hidden;
+  
+
+}
+.img-container{
+    width: 60%;
+    min-height: 98vh;
+    background:url("https://media.istockphoto.com/id/1366475343/photo/abstract-program-code-on-the-digital-display.webp?b=1&s=170667a&w=0&k=20&c=D616cG9GiUkuJxaxsEH3fFfBNF2Wz3CBYO0PkvJkgvE=") center/cover fixed no-repeat;
+    border: 0.5rem solid black;
+
+    position: relative;
+    margin: 0.5rem auto;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left:0;
+    background-color: aliceblue;
+    transform: translate(-50%,-50%);
+    border: 0.2rem solid ;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+
+}
+.btn-right{
+
+    position: absolute;
+    top: 50%;
+    right:0;
+    background-color: aliceblue;
+    transform: translate(50%,-50%);
+    border: 0.2rem solid ;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
